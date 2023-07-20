@@ -1,5 +1,35 @@
-#main-div{
-    border: 1px solid red;
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#app{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+h1{
+    color: brown;
+    font-size: 80px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: brown;
+    padding: 18px;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 18px;
+
 }
 
 img{
